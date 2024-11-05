@@ -1,0 +1,4 @@
+premitive loop:
+syntax:
+        name:printf(.......);
+        if(condition) goto name;
