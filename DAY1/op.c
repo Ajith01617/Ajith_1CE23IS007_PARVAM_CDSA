@@ -13,6 +13,7 @@ conditional
 complex assgn operator
 */
 #include<stdio.h>
+#include<math.h>
 
 int ad(int a, int b){
         int s;
@@ -39,6 +40,11 @@ int mo(int a, int b){
         r = a%b;
         return r;
     }
+int po(int a, int b){
+        int p;
+        p = pow(a,b);
+        return p;
+}
 int main()
 {
     int a,b,s;
@@ -61,6 +67,9 @@ int main()
             break;
         case '%':
             printf("Mod = %d",mo(a,b));
+            break;
+        case '^':
+            printf("Power = %d",po(a,b));
             break;
         default: 
             printf("enter vaild operator");
