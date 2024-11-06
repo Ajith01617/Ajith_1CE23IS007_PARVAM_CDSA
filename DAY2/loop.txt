@@ -6,7 +6,7 @@ syntax:
         ......
         }
 ---------------------------------------------------------------        
-do-while loop: Condition based exit checked loop
+do-while loop: Condition based exit checked loop (phrase: atleast once)
 syntax:
         do{
         ......
