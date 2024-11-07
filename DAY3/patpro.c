@@ -1,4 +1,20 @@
 #include<stdio.h>
+
+int p1(int n);
+int p2(int n);
+int p3(int n);
+
+int main(){
+    int n =0,i=0;
+    printf("\nenter a number for pattern:\n");
+    scanf("%d",&n);
+    p1(n);
+    p2(n);
+    p3(n);
+    //p4(n);
+    }
+
+    
 int p1(int n){
     printf("\npatter 1:\n");
     int i=0,j=0;
@@ -32,13 +48,3 @@ int p3(int n){
     }
 }
 
-
-int main(){
-    int n =0,i=0;
-    printf("\nenter a number for pattern:\n");
-    scanf("%d",&n);
-    p1(n);
-    p2(n);
-    p3(n);
-    //p4(n);
-    }

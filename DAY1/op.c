@@ -15,36 +15,13 @@ complex assgn operator
 #include<stdio.h>
 #include<math.h>
 
-int ad(int a, int b){
-        int s;
-        s = a+b;
-        return s;
-    }
-int su(int a, int b){
-        int d;
-        d = a-b;
-        return d;
-    }
-int di(int a, int b){
-        int q;
-        q = a/b;
-        return q;
-    }
-int mu(int a, int b){
-        int p;
-        p = a*b;
-        return p;
-    }
-int mo(int a, int b){
-        int r;
-        r = a%b;
-        return r;
-    }
-int po(int a, int b){
-        int p;
-        p = pow(a,b);
-        return p;
-}
+int ad(int a, int b);
+int su(int a, int b);
+int di(int a, int b);
+int mu(int a, int b);
+int mo(int a, int b);
+int po(int a, int b);
+
 int main()
 {
     int a,b,s;
@@ -75,4 +52,36 @@ int main()
             printf("enter vaild operator");
     }
 }
+
+int ad(int a, int b){
+        int s;
+        s = a+b;
+        return s;
+    }
+int su(int a, int b){
+        int d;
+        d = a-b;
+        return d;
+    }
+int di(int a, int b){
+        int q;
+        q = a/b;
+        return q;
+    }
+int mu(int a, int b){
+        int p;
+        p = a*b;
+        return p;
+    }
+int mo(int a, int b){
+        int r;
+        r = a%b;
+        return r;
+    }
+int po(int a, int b){
+        int p;
+        p = pow(a,b);
+        return p;
+}
+
 

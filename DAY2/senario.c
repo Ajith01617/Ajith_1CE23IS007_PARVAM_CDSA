@@ -1,5 +1,19 @@
 #include<stdio.h>
 #include<ctype.h>
+
+int ct(char ch, char r);
+int at(char ch, char r);
+
+int main(){
+    char ch;
+    char r;
+    printf("enter a single character\n");
+    scanf("%c",&ch);
+    ct(ch,r);
+    at(ch,r);
+    return 0;
+}
+
 int ct(char ch, char r){
     printf("Using ctype header files\n");
         if(isupper(ch)){
@@ -32,14 +46,3 @@ int at(char ch, char r){
         }
         return 0;
     }
-
-int main(){
-    char ch;
-    char r;
-    printf("enter a single character\n");
-    scanf("%c",&ch);
-    ct(ch,r);
-    at(ch,r);
-    return 0;
-}
-
